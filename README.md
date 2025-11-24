@@ -1,27 +1,25 @@
-# 🖥️ Interface de Login em Python com Tkinter e CustomTkinter
+# 🖥️ Interface de Login em Python (Tkinter + CustomTkinter)
 
-Este repositório apresenta um exemplo simples e moderno de interface gráfica (GUI) criada em Python utilizando **Tkinter** e sua versão estilizada **CustomTkinter**.  
-O projeto demonstra como criar uma janela de login funcional com tema escuro, campos de entrada, checkbox e botão com ação.
+Este repositório apresenta uma interface gráfica simples de login desenvolvida em Python, utilizando **Tkinter** e **CustomTkinter** para fornecer uma aparência moderna em tema escuro.  
+O projeto inclui campos de e-mail e senha, checkbox de “Lembrar Login” e botão de ação.
+
+---
+
+## 📸 Demonstração
+
+<img width="1329" height="673" alt="image" src="https://github.com/user-attachments/assets/67504f9b-e256-45de-9a18-d679adeee542" />
+
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Interface gráfica criada com Tkinter e CustomTkinter  
+- Interface criada com Tkinter e CustomTkinter  
 - Tema escuro aplicado automaticamente  
-- Campo de e-mail  
-- Campo de senha com ocultação (`show='*'`)  
-- Opção “Lembrar Login”  
-- Botão com função callback  
-- Estrutura simples, ideal para iniciantes em GUI com Python
-
----
-
-## 🧩 Tecnologias Utilizadas
-
-- **Python 3.x**
-- **Tkinter** (biblioteca nativa do Python)
-- **CustomTkinter** (interface moderna e estilizada)
+- Campos de entrada estilizados (e-mail e senha)  
+- Checkbox para lembrar login  
+- Botão com função vinculada  
+- Ideal para iniciantes em GUI com Python
 
 ---
 
@@ -35,17 +33,9 @@ pip install customtkinter
 
 ---
 
-## ▶️ Como Executar
-
-Basta rodar o arquivo Python:
-
-```bash
-python nome_do_arquivo.py
-```
-
 ---
 
-## 🧠 Código Utilizado
+## 🧠 Código Completo
 
 ```python
 import tkinter
@@ -95,11 +85,5 @@ botao.pack(padx=10, pady=10)
 
 janela.mainloop()
 ```
-
----
-
-## 📚 Objetivo Educacional
-
-Este projeto serve como base para quem deseja aprender a criar interfaces gráficas em Python e evoluir para aplicações mais completas, como sistemas de autenticação, dashboards e ferramentas desktop.
 
 ---
